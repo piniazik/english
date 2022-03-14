@@ -11,7 +11,6 @@ $('.down__btn').on('click', function breakDownWord() {
     /*breakDown = setTimeout(breakDownWord, 8000);*/
   } else {
     breakDown.pause();
-    breakDown.removeAttribute('loop', 'loop');
   }
 });
 
@@ -22,7 +21,6 @@ $('.in__btn').on('click', function breakInWord() {
     /*breakIn = setTimeout(breakInWord, 8000);*/
   } else {
     breakIn.pause();
-    breakIn.removeAttribute('loop', 'loop');
   }
 });
 
@@ -33,7 +31,6 @@ $('.into__btn').on('click', function breakIntoWord() {
     /*breakInto = setTimeout(breakIntoWord, 8000);*/
   } else {
     breakInto.pause();
-    breakInto.removeAttribute('loop', 'loop');
   }
 });
 
@@ -44,7 +41,6 @@ $('.off__btn').on('click', function breakOffWord() {
     /*breakOff = setTimeout(breakOffWord, 8000);*/
   } else {
     breakOff.pause();
-    breakOff.removeAttribute('loop', 'loop');
   }
 });
 
@@ -55,7 +51,6 @@ $('.out__btn').on('click', function breakOutWord() {
     /*breakOut = setTimeout(breakOutWord, 8000);*/
   } else {
     breakOut.pause();
-    breakOut.removeAttribute('loop', 'loop');
   }
 });
  
@@ -66,7 +61,6 @@ $('.trough__btn').on('click', function breakTroughWord() {
     /*breakTrough = setTimeout(breakTroughWord, 8000);*/
   } else {
     breakTrough.pause();
-    breakTrough.removeAttribute('loop', 'loop');
   }
 });
  
