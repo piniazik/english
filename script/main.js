@@ -4,7 +4,7 @@ $(window).on('load', function(){
 });
 
 //sound play
-$(document).on('click', '.down__btn', function() {
+$('.down__btn').click(function () {
   let breakDown = document.querySelector('.break__down');
   if (breakDown.paused) {
     breakDown.play();
@@ -13,7 +13,6 @@ $(document).on('click', '.down__btn', function() {
     breakDown.pause();
   }
 });
-
 
 $(document).on('click', '.in__btn', function () {
   let breakIn = document.querySelector('.break__in');
