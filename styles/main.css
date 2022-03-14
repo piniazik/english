@@ -21,6 +21,19 @@ body {
   height: 100vh;
 }
 
+button {
+  background-color: transparent;
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:focus:not(:focus-visible) {
+  outline: none !important;
+}
+
 @-webkit-keyframes gradient {
   0% {
     background-position: 0% 50%;
