@@ -4,7 +4,7 @@ $(window).on('load', function(){
 });
 
 //sound play
-$('.down__btn').on('click', function breakDownWord() {
+$(document).on('click', '.down__btn', function() {
   let breakDown = document.querySelector('.break__down');
   if (breakDown.paused) {
     breakDown.play();
@@ -14,7 +14,8 @@ $('.down__btn').on('click', function breakDownWord() {
   }
 });
 
-$('.in__btn').on('click', function breakInWord() {
+
+$(document).on('click', '.in__btn', function () {
   let breakIn = document.querySelector('.break__in');
   if (breakIn.paused) {
     breakIn.play();
@@ -24,7 +25,7 @@ $('.in__btn').on('click', function breakInWord() {
   }
 });
 
-$('.into__btn').on('click', function breakIntoWord() {
+$(document).on('click', '.into__btn', function () {
   let breakInto = document.querySelector('.break__into');
   if (breakInto.paused) {
     breakInto.play();
@@ -34,7 +35,7 @@ $('.into__btn').on('click', function breakIntoWord() {
   }
 });
 
-$('.off__btn').on('click', function breakOffWord() {
+$(document).on('click', '.off__btn', function () {
   let breakOff = document.querySelector('.break__off');
   if (breakOff.paused) {
     breakOff.play();
@@ -44,7 +45,7 @@ $('.off__btn').on('click', function breakOffWord() {
   }
 });
 
-$('.out__btn').on('click', function breakOutWord() {
+$(document).on('click', '.out__btn', function () {
   let breakOut = document.querySelector('.break__out');
   if (breakOut.paused) {
     breakOut.play();
@@ -53,8 +54,9 @@ $('.out__btn').on('click', function breakOutWord() {
     breakOut.pause();
   }
 });
+
  
-$('.trough__btn').on('click', function breakTroughWord() {
+$(document).on('click', '.trough__btn', function () {
   let breakTrough = document.querySelector('.break__trough');
   if (breakTrough.paused) {
     breakTrough.play();

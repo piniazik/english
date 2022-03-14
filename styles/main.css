@@ -146,6 +146,10 @@ ul {
   align-items: center;
 }
 
+.schedule__item {
+  cursor: pointer;
+}
+
 .list__heading {
   font-family: "Brandon-Bold", sans-serif;
   font-style: normal;
